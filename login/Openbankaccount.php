@@ -17,6 +17,13 @@ session_start();
 
     <body>
 
+        <style>
+            #openaccount {
+            position: absolute;
+            top: 450px;
+            }
+        </style>
+
         <img id="background" src="Images/Background.png" alt="Background" class="background" width="1850" height="1040.625">
         <img id="logomid" src="Images/Logo.png" alt="Icon" class="icon" width="326" height="179">
         <div id="rectanglesmall" class="round"></div>
@@ -25,7 +32,7 @@ session_start();
 
 
         <form action="Balance.php" method="post">
-            <input type="submit" name="someAction" value="Open Checking Account" />
+            <input id="openaccount"type="submit" name="someAction" value="Open Checking Account" />
         </form>
 
         <div>

@@ -15,7 +15,7 @@
 
         <div>
             <form id="register" action="Statuspage.php">
-                <input type="text" id="transfer" name="transfer" placeholder="Amount to Transfer: $ ">                
+                <input type="text" id="transfer" name="transfer" placeholder="Transfer Amount: $ ">                
                 <input type="text" id="toAccount" name="toAccount" placeholder="Routing Number: # ">
                 <input type="submit" id="donemid" value="Done">
             </form>

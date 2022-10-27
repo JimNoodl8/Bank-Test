@@ -57,7 +57,7 @@ session_start();
 
         <div>
             <form id="button6" action="Closebankaccount.php">
-                <input type="submit" value="Close (not working yet)">
+                <input type="submit" value="Close Account">
             </form>
         </div>
 

@@ -39,9 +39,10 @@
 
         <div>
             <form id="register" action="Statuspage.php">
-                <input type="text" id="transfer" name="transfer" placeholder="User for Checking: ">                
-                <input type="text" id="toAccount" name="toAccount" placeholder="Pass for Checking: ">
-                <input type="submit" value="Done">
+                <input type="text" id="transfer" name="transfer" placeholder="Placeholder: ">                
+                <input type="text" id="toAccount" name="toAccount" placeholder="Placeholder: ">
+                <input type="submit" id="donemid" value="Done">
+                <input type="submit" id="backmid" value="Back">
             </form>
             </form>
         </div>

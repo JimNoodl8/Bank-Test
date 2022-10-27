@@ -20,8 +20,8 @@ session_start();
 
         #pin {
         position: absolute;
-        left: 980px;
-        top: 632px;
+        left: 1030px;
+        top: 631.5px;
         font-family: Arial; 
         color:rgb(20, 27, 100); 
         font-size: 145%;
@@ -47,16 +47,16 @@ session_start();
         font-size: 122%;
         }
 
-        #checkroutenum {
+        #checkingroutenum {
         position: absolute;
         left: 871px;
-        top: 447.3px;
+        top: 445.1px;
         font-family: Arial; 
         color:rgb(20, 27, 100); 
         font-size: 145%;
         }
 
-        #checkroutetext {
+        #checkingroutetext {
         position: absolute;
         left: 766.6px;
         top: 451.7px;
@@ -65,14 +65,67 @@ session_start();
         font-size: 122%;
         }
 
-        
+        #savingsroutenum {
+        position: absolute;
+        left: 871px;
+        top: 567.3px;
+        font-family: Arial; 
+        color:rgb(20, 27, 100); 
+        font-size: 145%;
+        }
+
+        #savingsroutetext {
+        position: absolute;
+        left: 766.6px;
+        top: 573.7px;
+        font-family: Helvetica; 
+        color: #696969; 
+        font-size: 122%;
+        }
+
+        #checkingbalancetext {
+        position: absolute;
+        left: 766.6px;
+        top: 403.7px;
+        font-family: Helvetica; 
+        color: #696969; 
+        font-size: 122%;
+        }
+
+        #savingsbalancetext {
+        position: absolute;
+        left: 766.6px;
+        top: 522.8px;
+        font-family: Helvetica; 
+        color: #696969; 
+        font-size: 122%;
+        }
+
+        #checkingbalance {
+        position: absolute;
+        left: 1050px;
+        top: 403.7px;
+        font-family: Arial; 
+        color:rgb(20, 27, 100); 
+        font-size: 145%;
+        }
+
+        #savingsbalance {
+        position: absolute;
+        left: 1050px;
+        top: 522.8px;
+        font-family: Arial; 
+        color:rgb(20, 27, 100); 
+        font-size: 145%;
+
+        }
 
         #checkbalance {
         border: 1px solid #FFFFFF;
         top: 405px;
         }
 
-        #checkroute {
+        #checkingroute {
         border: 1px solid #FFFFFF;
         top: 455px;
         }
@@ -137,16 +190,22 @@ session_start();
 
         <div>
             <form id="register" action="Statuspage.php">
-                <input type="text" id="checkbalance"  name="username" placeholder="Checking: $">
-                <input type="text" id="savebalance"  name="username" placeholder="Savings: $">
-                <input type="text" id="saveroute"  name="username" placeholder="Routing: # ">
                 <input type="submit" id="backbalance" value="Back">
             </form>
         </div>
 
+        <p id="checkingbalancetext">Checking: $</p>
+        <p id="checkingbalance"><?php echo $user_data['checkingbalance']; ?></p>
+
+        <p id="savingsbalancetext">Savings: $</p>
+        <p id="savingsbalance"><?php echo $user_data['savingsbalance']; ?></p>
+
+        <p id="savingsroutetext">Routing: #</p>
+        <p id="savingsroutenum"><?php echo $user_data['savingsroute']; ?></p>
+
         
-        <p id="checkroutetext">Routing: #</p>
-        <p id="checkroutenum"><?php echo $user_data['checkingroute']; ?></p>
+        <p id="checkingroutetext">Routing: #</p>
+        <p id="checkingroutenum"><?php echo $user_data['checkingroute']; ?></p>
 
         <p id="pintext">Your 4-Digit Pin: #</p>
         <p id="pin"><?php echo $user_data['pin']; ?></p>

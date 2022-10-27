@@ -13,7 +13,9 @@ session_start();
 			$user_id = random_num10(10);
 			$pin = random_num4(4);
 			$checkingroute = random_num16(16);
-			$query = "insert into users (user_id,user_name,password,firstlastname,pin,checkingroute) values ('$user_id','$user_name','$password','$firstlastname','$pin','$checkingroute')";
+			$savingsroute = random_num16(16);
+			$query = "insert into users (user_id,user_name,password,firstlastname,pin,checkingroute,savingsroute) values 
+			('$user_id','$user_name','$password','$firstlastname','$pin','$checkingroute','$savingsroute')";
 
 			mysqli_query($con, $query);
 
