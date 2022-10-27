@@ -1,0 +1,372 @@
+#headericon {
+position: fixed;
+top: 5px;
+left: 15px;
+}
+
+#header {
+position: fixed;
+top:-15px;
+left: -15px;
+background-color: white;
+width: 1900px;
+height: 75px;
+z-index: -1;
+border: 15px solid #1B1464;
+}
+
+#background {
+position: absolute;
+top: -100px;
+left: -10px; 
+z-index: -4;
+width: 1955.555px;
+height: 1110px;
+}
+
+#logomid {
+position: absolute;
+left: 760px;
+top: 210px;
+}
+
+#rectanglesmall {
+position: absolute;
+top: 185px;
+left: 700px;
+width: 450px;
+height: 405px;
+border-radius: 10px;
+background-color: white;
+z-index: -3;
+}
+
+#rectanglemid {
+position: absolute;
+top: 185px;
+left: 700px;
+width: 450px;
+height: 465px;
+border-radius: 10px;
+background-color: white;
+z-index: -3;
+}
+
+#donemid {
+position: absolute;
+top: 515px;
+}
+
+#backsmall {
+position: absolute;
+top: 515px;
+}
+
+#backsmall2 {
+    position: absolute;
+    left:0px;
+    top: 515px;
+    }
+    
+
+#backmid {
+position: absolute;
+top: 575px;
+}
+
+input[type=text], select {
+position: absolute;
+left: 750px;
+font-size: 20px;
+width: 350px;
+padding: 8px 15px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=submit] {
+position: absolute;
+left: 750px;
+font-size: 20px;
+text-align: center;
+width: 350px;
+background-color: rgb(20, 27, 100);
+color: white;
+padding: 10px 15px ;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: rgb(201, 127, 195);
+}
+
+/* Homepage */
+#logohome {
+position: absolute;
+top: 225px;
+left: 1278px;
+}
+
+#user {
+top: 450px;
+left: 1300px;
+}
+
+#pass {
+position: absolute;
+font-size: 20px;
+width: 350px;
+padding: 8px 15px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+top: 515px;
+left: 1300px;
+}
+
+#checkbox {
+position: absolute;
+left: 1300px;
+top: 576px;
+}
+
+#showpass {
+font-family: Helvetica;
+font-size: 85%;
+position: absolute;
+left: 1326px;
+top: 565px;
+color: rgb(90, 90, 90);
+}
+
+#error {
+font-family: Helvetica; 
+color:rgb(255, 0, 0); 
+position: absolute; 
+top: 710px; 
+left: 1300px;
+}
+
+#login {
+top: 600px;
+left: 1300px;
+}
+
+#createaccount {
+top: 665px;
+left: 1300px;
+}
+
+#rectanglehome {
+position: absolute;
+top: 200px;
+left: 1265px;
+background-color: white;
+width: 420px;
+height: 555px;
+border-radius: 10px;
+z-index: -3;
+}
+
+/* Register */
+#regerror {
+font-family: Helvetica; 
+color:rgb(255, 0, 0); 
+position: absolute; 
+top: 620px; 
+left: 750px;
+}
+
+#flname {
+position: absolute;
+top:395px;
+}
+
+#reguser {
+position: absolute;
+top:455px;
+}
+
+#regpass {
+position: absolute;
+top:515px;
+}
+
+#register {
+top: 575px;
+left: 750px;
+}
+
+#rectanglereg {
+position: absolute;
+top: 185px;
+left: 700px;
+width: 450px;
+height: 475px;
+border-radius: 10px;
+background-color: white;
+z-index: -3;
+}
+
+/* Statuspage */
+#welcome {
+font-family: Arial; 
+color:rgb(20, 27, 100); 
+font-size: 155%; 
+position: absolute; 
+top: 370px; 
+left: 869px;
+}
+
+#name {
+top: 300px;
+text-align: center;
+font-family: Arial; 
+color:rgb(20, 27, 100); 
+font-size: 260%; 
+text-transform: capitalize;
+
+}
+
+#rectanglestatus {
+background-color: white;
+width: 450px;
+height: 775px;
+border-radius: 10px;
+position: absolute;
+z-index: -3;
+left: 700px;
+top: 185px;
+}
+
+#button1 {
+position: absolute;
+left: -5px;
+top: 490px;
+}
+
+#button2 {
+position: absolute;
+left: -5px;
+top: 555px;
+}
+
+#button3 {
+position: absolute;
+left: -5px;
+top: 620px;
+}
+
+#button4 {
+position: absolute;
+left: -5px;
+top: 685px;
+}
+
+#button5 {
+position: absolute;
+left: -5px;
+top: 750px;
+}
+
+#button6 {
+position: absolute;
+left: -5px;
+top: 815px;
+}
+
+#button7 {
+position: absolute;
+left: -5px;
+top: 880px;
+}
+
+/* Balance */
+#checkbalance {
+border: 1px solid #FFFFFF;
+top: 405px;
+}
+
+#checkroute {
+border: 1px solid #FFFFFF;
+top: 455px;
+}
+
+#savebalance {
+border: 1px solid #FFFFFF;
+top: 525px;
+}
+
+#saveroute {
+border: 1px solid #FFFFFF;
+top: 575px;
+}
+
+
+#backbalance {
+top: 710px;
+}
+
+#rectanglebalance {
+position: absolute;
+top: 185px;
+left: 700px;
+width: 450px;
+height: 600px;
+border-radius: 10px;
+background-color: white;
+z-index: -3;
+}
+
+#checkingbox {
+position: absolute;
+border-radius: 4px;
+border: 1px solid #ccc;
+padding: 8px 15pxpx;
+width: 350px;
+height: 101px;
+left: 749px;
+top: 391px;
+}
+
+#savingsbox {
+position: absolute;
+border-radius: 4px;
+border: 1px solid #ccc;
+padding: 8px 15pxpx;
+width: 350px;
+height: 101px;
+left: 749px;
+top: 511px;
+}
+
+/* Transfer */
+#transfer {
+position: absolute;
+top:395px;
+}
+
+#toAccount {
+position: absolute;
+top:455px;
+}
+
+/* Open Bank Account */
+#checking {
+position: absolute;
+top: 395px;
+}
+
+#savings {
+position: absolute;
+top: 455px;
+}
+
