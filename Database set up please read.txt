@@ -1,0 +1,1 @@
+Look at the image "database" and notice it's called login_sample_db and the table is called users.
