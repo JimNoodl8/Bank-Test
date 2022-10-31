@@ -5,11 +5,11 @@ session_start();
 	include("Functions.php");
 
 	if($_SERVER['REQUEST_METHOD'] == "POST") {
-		$user_name = $_POST['user_name'];
+		$email = $_POST['email'];
 		$password = $_POST['password'];
 
-		if(!empty($user_name) && !empty($password) && !is_numeric($user_name)) {
-			$query = "select * from users where user_name = '$user_name' limit 1";
+		if(!empty($email) && !empty($password) && !is_numeric($email)) {
+			$query = "select * from users where email = '$email' limit 1";
 			$result = mysqli_query($con, $query);
 
 			if($result) {
@@ -61,7 +61,7 @@ session_start();
 		
 		<div>
 			<form method="post">
-				<input id="user" type="text" name="user_name" placeholder="Username">
+				<input id="email" type="text" name="email" placeholder="Email">
 				<input id="pass" type="password" name="password" placeholder="Password">
 				<input id="login" type="submit" value="Login">
 			</form>

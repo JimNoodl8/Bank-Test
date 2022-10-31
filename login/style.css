@@ -104,6 +104,12 @@ top: 450px;
 left: 1300px;
 }
 
+#email {
+top: 450px;
+left: 1300px;
+}
+
+
 #pass {
 position: absolute;
 font-size: 20px;
@@ -171,20 +177,37 @@ top: 620px;
 left: 750px;
 }
 
-#flname { position: absolute; top:395px;}
+#flname { 
+position: absolute; 
+top:395px;
+}
 
-#reguser { position: absolute; top:455px;}
+#regemail { 
+position: absolute; 
+top:455px;
+}
 
-#regpass { position: absolute; top:515px;}
+#reguser { 
+position: absolute; 
+top:515px;
+}
 
-#register { top: 575px; left: 750px;}
+#regpass { 
+position: absolute; 
+top:575px;
+}
+
+#register { 
+top: 635px; 
+left: 750px;
+}
 
 #rectanglereg {
 position: absolute;
 top: 185px;
 left: 700px;
 width: 450px;
-height: 475px;
+height: 635px;
 border-radius: 10px;
 background-color: white;
 z-index: -3;

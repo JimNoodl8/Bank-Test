@@ -49,7 +49,7 @@ session_start();
 
         #checkingroutenum {
         position: absolute;
-        left: 871px;
+        left: 880px;
         top: 445.1px;
         font-family: Arial; 
         color:rgb(20, 27, 100); 
@@ -67,7 +67,7 @@ session_start();
 
         #savingsroutenum {
         position: absolute;
-        left: 871px;
+        left: 880px;
         top: 567.3px;
         font-family: Arial; 
         color:rgb(20, 27, 100); 
@@ -195,16 +195,16 @@ session_start();
         </div>
 
         <p id="checkingbalancetext">Checking: $</p>
-        <p id="checkingbalance"><?php echo $user_data['checkingbalance']; ?></p>
+        <p id="checkingbalance"><?php echo $user_data['checkingbalance']; ?></p>    
 
         <p id="savingsbalancetext">Savings: $</p>
         <p id="savingsbalance"><?php echo $user_data['savingsbalance']; ?></p>
 
-        <p id="savingsroutetext">Routing: #</p>
+        <p id="savingsroutetext">Savings: #</p>
         <p id="savingsroutenum"><?php echo $user_data['savingsroute']; ?></p>
 
         
-        <p id="checkingroutetext">Routing: #</p>
+        <p id="checkingroutetext">Checking: #</p>
         <p id="checkingroutenum"><?php echo $user_data['checkingroute']; ?></p>
 
         <p id="pintext">Your 4-Digit Pin: #</p>
