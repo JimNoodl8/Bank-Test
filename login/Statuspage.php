@@ -1,9 +1,9 @@
-<?php 
+<?php
 session_start();
 
 	include("Connection.php");
 	include("Functions.php");
-    
+
 	$user_data = check_login($con);
 ?>
 
@@ -20,17 +20,17 @@ session_start();
 		<div id="rectanglestatus" class="round"></div>
 		<a href="Homepage.php"><img id="headericon" src="Images/Logo.png" alt="Icon" class="icon" width="127.486" height="70"></a>
 		<div id="header" class=""></div>
-        
+
 		<p id="welcome">Welcome!</p>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<p id="name"><b><?php echo $user_data['firstlastname']; ?><b></p>
-           
+
         <div>
             <form id="button1" action="Balance.php">
                 <input type="submit" value="View Balance">
             </form>
         </div>
-
+				<br>
         <div>
             <form id="button2" action="Transfer.php">
                 <input type="submit" value="Transfer Balance">
